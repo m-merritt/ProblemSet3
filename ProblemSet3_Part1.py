@@ -28,9 +28,13 @@ for x in range(3):
     user_numbers.append(int(guess))
 user_numbers.sort()
 print(user_numbers[2])
-
-
-
     
+# %% Task 3 - Challenge
 
-# %%
+user_numbers = []
+
+for x in range(3):
+    guess = input("Enter an integer: ")
+    user_numbers.append(int(guess))
+user_numbers.sort(reverse=True)
+print(user_numbers)
